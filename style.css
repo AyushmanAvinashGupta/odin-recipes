@@ -1,0 +1,65 @@
+body {
+    font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.img figcaption {
+    width: fit-content;
+    background-color: light-dark(#0FFF50, darkgreen);
+    font-weight: 600;
+    margin: auto;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredients-list .ingredient-name {
+    font-weight: bold;
+}
+
+.steps-list > li::marker {
+    font-weight: bold;
+}
+
+.section-header {
+    width: 100%;
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    width: 100%;
+    background-color: light-dark(#00FFFF, #00008B);
+    text-align: center;
+}
+
+#description > .section-header {
+    background-color: light-dark(#D96B5C, #902719);
+}
+
+#ingredients > .section-header {
+    background-color: light-dark(#F2B880, #A15B1C);
+}
+
+#steps > .section-header {
+    background-color: light-dark(#c4c2a6, #9d9852);
+}
+
+#more-links > .section-header {
+    background-color: light-dark(#A9D6E5, #1B4965);
+}
